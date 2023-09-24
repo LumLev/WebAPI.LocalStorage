@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>Blazed.WebAPI.LocalStorage</PackageId>
+    <Title>Browser Local Storage for Blazor</Title>
+    <Version>0.0.1</Version>
+    <Authors>LumLev</Authors>
+    <Company>LumLev</Company>
+    <Description>Browser WebAPI: Local Storage for Blazor. The 4 methods on: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.11" />
+  </ItemGroup>
+
+</Project>
