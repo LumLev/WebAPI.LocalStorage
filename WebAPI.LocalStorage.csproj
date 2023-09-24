@@ -11,7 +11,17 @@
     <Company>LumLev</Company>
     <Description>Browser WebAPI: Local Storage for Blazor. The 4 methods on: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/LumLev/WebAPI.LocalStorage</PackageProjectUrl>
+    <PackageIcon>OIP (1).jpeg</PackageIcon>
+    <RepositoryUrl>https://github.com/LumLev/WebAPI.LocalStorage</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Pictures\OIP (1).jpeg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 
   <ItemGroup>
